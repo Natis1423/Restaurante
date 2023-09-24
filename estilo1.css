@@ -1,0 +1,210 @@
+
+header{ 
+    height: 80px;
+width: 100%;
+}
+#logo{
+    height: 200px;
+    width: 200px;
+}
+.body_bienvenido{
+    background-image:url(Fondo.avif) ;
+   background-size: 100%;
+   background-size: cover;
+    background-repeat: no-repeat ;
+  }
+  #boton1{
+    margin-left: 45%;
+    margin-top: 7%;
+    background-color: rgb(71, 44, 44);
+   border: solid 2px rgb(172, 149, 149);
+   color: #ffffff;
+   height: 50px;
+   width: 150px;
+    transform: perspective(1000px) translateZ(50px);
+    cursor: pointer;
+    background-image: url(https://dbdzm869oupei.cloudfront.net/img/photomural/preview/74198.png);
+  
+  }
+  #boton1:hover{background-color: rgb(172, 149, 149);
+border-color:  rgb(71, 44, 44); 
+color:  rgb(24, 15, 15);}
+  #texto1{
+    text-align: center;
+    margin-top: 8%;
+    color: aliceblue;
+    font-size: 60px;
+  }
+    #texto{
+        text-align: center;
+        margin-top: 3%;
+        color: aliceblue;
+        font-size: 40px;
+    }
+    #icono{
+        color: #ffffff;
+    }
+    #icono{
+        margin-bottom: 5%;
+        position: relative;
+        display: flex;  
+        margin-left: 5.8%;
+        margin-top: 2%;
+    }
+    #texto_iconos{
+        position: relative;
+       margin-left: 11%;
+       margin-top: -7.5%;
+color: #ffffff;
+
+    }
+    #regis{
+        color: #ffffff;
+        position: relative;
+        display: flex;
+        padding-top: 10%;
+        margin-left: 12%;
+        font-size: 20px;
+        
+    }
+    #boton_regis{
+        position: relative;
+        display: flex;
+        margin-top: 6%;
+        margin-left: 30%;
+        height: 20px;
+        width: 40%;
+        justify-content: center;
+        border-radius: 30px;
+        border-color: rgb(0, 0, 0);
+        color: #ffffff;
+        cursor: pointer;
+       background-image: url(https://dbdzm869oupei.cloudfront.net/img/photomural/preview/74198.png);
+    }
+    #boton_regis:hover{
+        border-color: rgb(122, 122, 122);
+
+    }
+    #regis1,#rol{
+        margin-top: 4%;
+        margin-left: 10%;
+        height: 20px;
+        width: 80%;
+        border-radius: 30px;
+        border-color: rgb(150, 128, 103);
+        
+
+        
+
+    }
+    #regis1:hover{
+        border-color: aqua;
+    }
+    #rol:hover{
+        border-color: aqua;
+    }
+   
+    .registro{
+background-color: rgb(41, 48, 48);
+width: 30%;
+height: 350px;
+margin-left: 40%;
+margin-top: 5%;
+box-shadow: 20px 20px 20px rgba(255, 255, 255, 0.3);
+    }
+    
+    #pedido{
+        position: relative;
+        display: flex;
+        color: #ffffff;
+        margin-left: 46%;
+        margin-top: 35px;
+      
+       
+    }
+  #pedido1{
+    margin-left: 45%;
+    width: 211px;
+    height: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+    background-color: rgb(226, 226, 226);
+    border: solid 2px rgb(170, 102, 130);
+    box-shadow: 2px 1px 0 0 rgb(209, 152, 176);
+  }
+  #registro{
+    color: #b8af33;
+    font-size: 30px;
+    text-align: center;
+    font-size: 50px;
+    
+  }
+  #botones{
+        height: 50px;
+        width: 100px;
+        justify-content: center;
+        margin-left: 5%;
+        border-radius: 30px;
+        margin-top: 20%;
+        background-image: url(https://cdn.pixabay.com/photo/2018/05/31/09/51/texture-3443501_1280.jpg);
+      color: #ffffff;
+      
+  }
+
+  #botones1{
+    height: 50px;
+    width: 100px;
+    justify-content: center;
+   margin-left: 10%;
+    border-radius: 30px;
+    margin-top: 20%;
+    background-image: url(https://cdn.pixabay.com/photo/2018/05/31/09/51/texture-3443501_1280.jpg);
+    color: #ffffff;
+      
+  
+    
+  }
+
+  #tarjeta{
+    height: 200px;
+    width: 200px;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-color: aqua;
+    border-radius: 20px;
+  }
+  #boton2{
+    height: 50px;
+    width: 130px;
+    position: relative;
+    display:flow-root;
+    margin-top: 5%;
+    margin-left: 48%;
+    background-color: rgb(145, 142, 142);
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    border: solid 2px rgb(78, 78, 77);
+    box-shadow: 2px 2px 0 0 rgb(72, 72, 73);
+  }
+ #boton2:hover{
+background-color:  rgb(78, 78, 77);}
+
+
+.diseño{
+  position: relative;
+ 
+}
+.tarjeta1{
+  height: 200px;
+  width: 370px;
+  justify-content: center;
+ margin-left: 13%;
+ margin-top: 5%; 
+ padding-top: 1%;
+ padding-bottom: 2%;
+ border-radius: 30px;
+  display: inline-flex;
+  border: solid 5px rgb(8, 8, 8);
+  background-color: rgb(62, 71, 71);
+  box-shadow: 7px 10px 12px 0 rgb(44, 44, 43);
+}
